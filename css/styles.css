@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-/* Reset Styles */
+/* RESET STYLES */
 
 ul, ol {
     list-style-type: none;
@@ -12,7 +12,7 @@ ul, ol {
     padding: 0;
 }
 
-h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ img {
     display: block;
 }
 
-/* Common Styles */
+/* COMMON STYLES */
 
 .container {
     max-width: calc(1128px + 15px + 15px);
@@ -32,7 +32,7 @@ img {
     margin: 0 auto;
 }
 
-/* Header Styles */
+/* HEADER STYLES */
 
 .page-header {
    border-bottom: 1px solid #e7e9fc;  
@@ -48,7 +48,7 @@ img {
     align-items: center;
 }
 
-/* Logo Styles */
+/* LOGO STYLES */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -69,7 +69,7 @@ img {
     color: #2e2f42;
 }
 
-/* Navigation Styles */
+/* NAVIGATION STYLES */
 
 .nav-list {
     display: flex;
@@ -92,7 +92,7 @@ img {
     color: #404bbf;
 }
 
-/* Contacts Styles */
+/* CONTACTS STYLES */
 
 .contacts {
     font-style: normal;
@@ -119,7 +119,7 @@ img {
     color: #404bbf;
 }
 
-/* Hero Styles */
+/* HERO STYLES */
 
 .hero-container {
     display: flex;
@@ -147,7 +147,7 @@ img {
     margin-bottom: 48px;
 }
 
-/* Button Styles */
+/* BUTTON STYLES */
 
 .hero-button {
     font-weight: 500;
@@ -172,7 +172,7 @@ img {
     background-color: #404bbf;
 }
 
-/* Features Styles */
+/* FEATURES STYLES */
 
 .features {
     padding-top: 120px;
@@ -185,7 +185,7 @@ img {
 }
 
 .features-item {
-    width: calc((100% - 3 * 24) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -219,7 +219,7 @@ img {
     margin-top: 8px;
 }
 
-/* Our Team Styles */
+/* OUR TEAM STYLES */
 
 .our-team {
     background-color: #f4f4fd;
@@ -253,7 +253,7 @@ img {
 
 .team-item {
     background-color: #ffffff;
-    width: calc((100% - 3 * 24) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
@@ -275,7 +275,7 @@ img {
     color: #434455;
 }
 
-/* Portfolio Styles */
+/* PORTFOLIO STYLES */
 
 .our-portfolio {
     padding: 120px 0;
@@ -288,6 +288,7 @@ img {
 }
 
 .portfolio-item {
+    background-color: #fff;
     width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -297,6 +298,10 @@ img {
     justify-content: center;
     flex-direction: column;
     gap: 8px;
+
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-title {
@@ -325,7 +330,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-/* Footer Styles */
+/* FOOTER STYLES */
 
 .page-footer {
     background-color: #2e2f42;
